@@ -10,7 +10,7 @@ export let elements = {
     closeButton: null,
 };
 
-export function createDOM(config, uiText) {
+export function createDOM(config, uiText, close) {
     elements.closeButton = createDomElement('button', {
         className: 'editor__close-button',
         innerHTML: '&times;',

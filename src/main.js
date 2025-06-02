@@ -1,6 +1,5 @@
 import { createPostEditor } from '../editor';
 import '../editor/editor-styles.css';
-import './style.css';
 
 function setupPostEditor() {
     const openButton = document.getElementById('editor-trigger');

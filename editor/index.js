@@ -10,7 +10,7 @@ export function createPostEditor(config) {
 
     function render(state) {
         if (!elements.modal) {
-            createDOM(config, uiText);
+            createDOM(config, uiText, close);
         }
         
         const platform = state.currentPlatformId 
@@ -84,7 +84,7 @@ export function createPostEditor(config) {
         const state = store.getState();
 
         if (state.isOpen) return;
-        if (!elements.overlay) createDOM(config, uiText);
+        if (!elements.overlay) createDOM(config, uiText, close);
 
         store.setState({
             isOpen: true,
