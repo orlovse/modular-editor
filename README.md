@@ -6,6 +6,10 @@ Build a reusable, framework-agnostic UI component for creating social media post
 ## Visual example
 <img width="719" alt="Screenshot 2025-06-02 at 22 18 32" src="https://github.com/user-attachments/assets/9bd23d2b-365b-4cb7-960e-1f3b9a0c0306" />
 
+
+https://github.com/user-attachments/assets/63c3297f-afa3-4a27-9051-3421676f1145
+
+
 ---
 
 ## ✅ Core Requirements
