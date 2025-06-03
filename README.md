@@ -17,8 +17,7 @@ https://github.com/user-attachments/assets/63c3297f-afa3-4a27-9051-3421676f1145
 * **Tech Stack:** Vanilla JS (ES6+), functional style. **No frameworks or libraries** (React, Vue, jQuery, etc.).
 * **UI/UX:** A modal dialog with a form, platform selector, and a `textarea`.
 * **Character Counter:** A real-time counter (`current / max`) that updates as the user types.
-* **State Handling:** The submit button must have `disabled`, `loading`, and `error` states. An error message should be displayed on failed submission.
-* **Accessibility (A11y):** The modal must have a **focus trap** and be closable with the `Escape` key. Use of proper ARIA attributes is required.
+* **State Handling:** The submit button must have `disabled` and `loading` states.
 * **Styling:** Styles must be encapsulated and self-contained.
 
 ---
@@ -33,7 +32,7 @@ The factory function accepts a `config` object:
 
 ### Returned API Object
 The function returns an object with two methods:
-* `open(initialText?: string)`: Opens the modal.
+* `open()`: Opens the modal.
 * `destroy()`: Removes the component and all its listeners.
 
 ---
