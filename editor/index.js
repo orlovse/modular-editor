@@ -1,5 +1,6 @@
 import * as store from './store';
 import { elements, createDOM } from './buildDom';
+import './editor-styles.css';
 
 export function createPostEditor(config) {
     const uiText = {
